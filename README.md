@@ -49,10 +49,10 @@ This application is designed to:
    pip install flask scikit-learn pandas
 
 4. **Make sure your folder structure looks like this**:
-    emotion-prediction-app/
+   ```plaintext
+   emotion-prediction-app/
     ├── app.py
-    ├── templates/
-    │   └── index.html
+    ├── index.html
     ├── emotion_model.pkl
     ├── label_encoder.pkl
     ├── combined_emotion.csv
@@ -62,20 +62,21 @@ This application is designed to:
    ```bash
    python app.py
 
-7. **Visit in your browser**: Navigate to http://127.0.0.1:5000 🌐
+7. **Visit in your browser**:
+   Navigate to http://127.0.0.1:5000 🌐
 
-💡 Example Use
+##💡 Example Use
 Input: "i know how you feel about being shy"
 Output: Predicted Emotion: Fear
 
-📸 Screenshots
+##📸 Screenshots
 ![Screenshot 2025-04-04 191945](https://github.com/user-attachments/assets/c85a7fe4-9f37-419b-b7f5-e384524cccec)
 
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome! 🛠️
 If you'd like to improve the model, UI, or add new features, feel free to fork this repo and submit a pull request!
 
-📬 Contact
+##📬 Contact
 For any questions or collaborations, feel free to reach out:
 📧 Email: drbavaliya13@gmail.com
 
