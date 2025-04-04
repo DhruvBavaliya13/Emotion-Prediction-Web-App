@@ -12,7 +12,7 @@ This application is designed to:
 
 ## 📂 Dataset & Model
 
-- 🔹 **Dataset**: `go_emotions_dataset.csv` - based on Google's GoEmotions dataset.
+- 🔹 **Dataset**: `combined_emotion.csv` - based on Kaggle dataset.
 - 🔹 **Model**: Trained using Scikit-learn and saved as `emotion_model.pkl`.
 - 🔹 **Label Encoder**: Encodes/decodes emotion labels — `label_encoder.pkl`.
 
@@ -29,7 +29,7 @@ This application is designed to:
 2. `index.html` – User interface for input and displaying results.
 3. `emotion_model.pkl` – Trained emotion classification model.
 4. `label_encoder.pkl` – Translates between encoded and readable emotion labels.
-5. `combined_emotion` – Dataset used to train the model.
+5. `combined_emotion.csv` – Dataset used to train the model.
 6. `ML_Task2.ipynb` – Training notebook and EDA.
 
 ## 🚀 How to Run
@@ -55,7 +55,7 @@ This application is designed to:
     │   └── index.html
     ├── emotion_model.pkl
     ├── label_encoder.pkl
-    ├── combined_emotion
+    ├── combined_emotion.csv
     └── ML_Task2.ipynb
 
 5. **Run the Flask app**:
