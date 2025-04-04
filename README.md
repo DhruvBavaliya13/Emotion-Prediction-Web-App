@@ -12,7 +12,7 @@ This application is designed to:
 
 ## 📂 Dataset & Model
 
-- 🔹 **Dataset**: `combined_emotion.csv` - based on Kaggle dataset. Download Dataset[https://www.kaggle.com/datasets/kushagra3204/sentiment-and-emotion-analysis-dataset/data]
+- 🔹 **Dataset**: `combined_emotion.csv` - based on Kaggle dataset. Download Dataset(https://www.kaggle.com/datasets/kushagra3204/sentiment-and-emotion-analysis-dataset/data)
 - 🔹 **Model**: Trained using Scikit-learn and saved as `emotion_model.pkl`.
 - 🔹 **Label Encoder**: Encodes/decodes emotion labels — `label_encoder.pkl`.
 
@@ -36,7 +36,7 @@ This application is designed to:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/emotion-prediction-app.git
+   git clone https://github.com/DhruvBavaliya13/Emotion-Prediction-Web-App.git
    cd emotion-prediction-app
    
 2. **Create a virtual environment (optional)**:
