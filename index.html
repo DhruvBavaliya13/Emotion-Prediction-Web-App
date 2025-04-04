@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion Prediction</title>
+</head>
+<body>
+    <h1>Emotion Prediction App</h1>
+    <form action="/predict" method="post">
+        <input type="text" name="text" placeholder="Enter text here..." required>
+        <button type="submit">Predict Emotion</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Predicted Emotion: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
