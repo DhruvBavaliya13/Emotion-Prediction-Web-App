@@ -12,7 +12,7 @@ This application is designed to:
 
 ## 📂 Dataset & Model
 
-- 🔹 **Dataset**: `combined_emotion.csv` - based on Kaggle dataset.
+- 🔹 **Dataset**: `combined_emotion.csv` - based on Kaggle dataset. Download Dataset[https://www.kaggle.com/datasets/kushagra3204/sentiment-and-emotion-analysis-dataset/data]
 - 🔹 **Model**: Trained using Scikit-learn and saved as `emotion_model.pkl`.
 - 🔹 **Label Encoder**: Encodes/decodes emotion labels — `label_encoder.pkl`.
 
@@ -65,18 +65,18 @@ This application is designed to:
 7. **Visit in your browser**:
    Navigate to http://127.0.0.1:5000 🌐
 
-##💡 Example Use
+## 💡 Example Use
 Input: "i know how you feel about being shy"
 Output: Predicted Emotion: Fear
 
-##📸 Screenshots
+## 📸 Screenshots
 ![Screenshot 2025-04-04 191945](https://github.com/user-attachments/assets/c85a7fe4-9f37-419b-b7f5-e384524cccec)
 
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! 🛠️
 If you'd like to improve the model, UI, or add new features, feel free to fork this repo and submit a pull request!
 
-##📬 Contact
+## 📬 Contact
 For any questions or collaborations, feel free to reach out:
 📧 Email: drbavaliya13@gmail.com
 
